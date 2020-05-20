@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="../static/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/lib/jquery.url.js"></script>
+    <script src="../static/js/blog.js"></script>
+</head>
+<body>
+<form id="login-form" class="smart-green form">
+    <h1>用户登录
+        <!--<span>请留下你的信息.</span>-->
+    </h1>
+    <label>
+        <span>用户名 :</span>
+        <input id="username" type="text" name="username" class="error" placeholder="请输入您的用户名"/>
+    </label>
+
+    <label>
+        <span>密码：</span>
+        <input id="password" type="password" value="" name="password" placeholder="请输入密码"/>
+    </label>
+
+{{/*    <label>*/}}
+{{/*        <div class="error-msg">{{.errormsg}}</div>*/}}
+{{/*    </label>*/}}
+
+    <label>
+        <span>&nbsp;</span>
+        <input type="submit" class="button" value="登录"/>
+    </label>
+	<label>
+        <span>&nbsp;</span>
+        <input type="submit" class="button" value="注册"/>
+    </label>
+</form>
+
+</body>
+</html>
